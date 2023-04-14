@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.big-container {
+  background-image: linear-gradient(
+    to top right,
+    rgb(98, 0, 128),
+    rgb(128, 100, 136)
+  );
+}
+
+button:link,
+button:visited {
+  background-color: #aaa;
+}
+
+button:hover,
+button:active {
+  background-color: #aaa;
+}
+
+.btn--clicked {
+  color: #eee;
+  background-color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CONTAINERS */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
+  justify-items: center;
+  align-items: start;
+}
+
+.grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--cols-2a {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* HEADER */
+.section-header {
+  padding: 1.2rem 0;
+  margin-bottom: 4.2rem;
+}
+
+.header {
+  font-size: 4.8rem;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+}
+
+/* CHARACTER BUTTONS */
+.section-characters {
+  padding: 2.4rem;
+  margin-bottom: 4.2rem;
+  background-color: rgba(255, 145, 231, 0.39);
+}
+.character {
+  font-size: 2.6rem;
+  text-align: center;
+  padding: 3.2rem;
+  box-shadow: 0 0 0.1rem #000;
+}
+
+/* SCENE CARDS */
+.section-scenes {
+  padding: 2.4rem;
+  margin-bottom: 4.2rem;
+  text-align: center;
+
+  background-color: rgba(239, 250, 140, 0.781);
+}
+
+.scene {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  box-shadow: 0 0 0.1rem #000;
+}
+
+/* HIDDEN CLASS */
+.hidden {
+  display: none;
+}
+
+.lonny-hidden {
+  display: none;
+}
+
+.drew-hidden {
+  display: none;
+}
+
+.dennis-hidden {
+  display: none;
+}
+
+.sherrie-hidden {
+  display: none;
+}
+
+.hertz-hidden {
+  display: none;
+}
+.franz-hidden {
+  display: none;
+}
+.anita-hidden {
+  display: none;
+}
+.stacee-hidden {
+  display: none;
+}
+.justice-hidden {
+  display: none;
+}
+.mayor-hidden {
+  display: none;
+}
+.jakeith-hidden {
+  display: none;
+}
+.joey-hidden {
+  display: none;
+}
+.fathermother-hidden {
+  display: none;
+}
